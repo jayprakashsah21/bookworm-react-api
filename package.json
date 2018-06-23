@@ -1,0 +1,35 @@
+{
+  "name": "bookworm-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^2.0.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "dotenv-init": "^1.1.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.2",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.4",
+    "mongoose-unique-validator": "^2.0.1",
+    "nodemailer": "^4.6.6",
+    "nodemon": "^1.17.5",
+    "normalizr": "^3.2.4",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
